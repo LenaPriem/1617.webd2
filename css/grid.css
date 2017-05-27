@@ -35,9 +35,10 @@
 
 .grid__container {
     display: block;
-    width: 1140px;
-    margin: 0 auto;
     padding: 0 12px;
+    width: 83.333333333333%;
+    margin-left: 8.333333333333%;
+    
 }
 
 .grid__row {
@@ -93,7 +94,7 @@
 .grid__column-6 {  width: 50%; }
 .grid__column-5 {  width: 41.666666666667%; }
 .grid__column-4 {  width: 33.333333333333%; }
-.grid__column-3 {  width: 25%; }
+.grid__column-3 {  width: 25%;}
 .grid__column-2 {  width: 16.666666666667%; }
 .grid__column-1 {  width: 8.333333333333%; }
 
