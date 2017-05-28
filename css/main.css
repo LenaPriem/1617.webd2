@@ -22,8 +22,12 @@ body {
 .mid {
   padding: 1rem;
   border-style:solid;
-  border-width: 2rem ;
+  border-width:0px;
+  border-right-width: 2rem ;
+  border-left-width: 2rem ;
+
   border-color: white;
+
   background-color:  rgba(255, 255, 255, 0.6);
 }
 
@@ -37,7 +41,9 @@ body {
 
 .footer {
   background-color:  white;
+  padding:1rem;
   padding-left: 50px;
+  
 }
 
 .tekst {
@@ -45,18 +51,17 @@ body {
 }
 
 .links {
-  border-style:solid;
-  border-left-width: 2rem ;
-  border-right-width: 2rem ;
+  border-style: solid;
   border-color: white; 
+  border-right-width: 2rem;
+  border-bottom-width: 2rem;
 }
 
 .foto {
   border-style:solid;
   border-width: 1rem ;
   border-color: white;
-  background-color:  white;
-
+  background-color: white;
 }
 
 #main-navigation > ul {
@@ -71,10 +76,10 @@ body {
 #main-navigation > ul > li > a {
     display:block;
     text-decoration:none;
-    padding:10px 80px;
+    padding:10px 96px;
     color:white;
     font-weight:800;
-    border-right:2remx solid white;
+
     text-transform: uppercase;
 }
 #main-navigation > ul > li:first-of-type > a {
@@ -84,7 +89,7 @@ body {
 #main-navigation > ul > li > a:focus,
 #main-navigation > ul > li.active > a
 {
-    background:white;
+    background:rgba(255, 255, 255, 0.6);
     color:rgb(47, 69, 145);
     transition:all 360ms ease-in 0s;
 }
@@ -99,4 +104,19 @@ body {
 
 .clearfix:after {
     clear: both;
+}
+
+.align {
+  text-align: right;
+}
+
+.logos {
+  padding-right: 50px;
+}
+
+.table {
+  background-color:  rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  table-layout:fixed;
+  width: 100%;
 }
